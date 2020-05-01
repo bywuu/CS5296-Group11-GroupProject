@@ -17,7 +17,7 @@ Run the following file to launch the program.
 ```
 ./Spark/upload.py
 ```
-You can also view the ```.ipynb ``` from the following dir too. 
+You can also view the ```.ipynb ``` file from the following dir too. 
 ```
 ./Spark/logisticRegression.ipynb
 ```
