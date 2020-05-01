@@ -1,12 +1,12 @@
-##Distributed Machine Learning on Tensorflow
+## Distributed Machine Learning on Tensorflow
 
 Pre-requisites: python 2.7, tensorflow 1.10 (other version maybe work, but have not been tested), sklearn, time, numpy, math.</br> </br> 
 
-##Introduce
-The code can be found here -> ```./Code/```
+## Introduce
+The code can be found here -> ```./Code/``` </br> 
 The result(Screenshot) can be found here -> ```./Result/```
 
-##Usage
+## Usage
 Run the following file to try nondistributed training (It takes about 300s for one epoch training). 
 ```
 ./Code/Non_distributed_training.py
