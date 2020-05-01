@@ -12,10 +12,14 @@ The project aims to conduct machine learning algorithms on distributed machine l
 ## Usage
 
 ### Spark
-In the Spark, please make sure you have installed the time, pandas, sklearn, pyspark.ml and pyspark.sql package.
+In the Spark, please make sure you have installed the time, pandas, sklearn, pyspark.ml and pyspark.sql package.<br/>
 Run the following file to launch the program. 
 ```
 ./Spark/upload.py
+```
+You can also view the ```.ipynb ``` from the following dir too. 
+```
+./Spark/logisticRegression.ipynb
 ```
 
 ### Tensorflow
