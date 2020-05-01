@@ -1,0 +1,8 @@
+num_data: 116202
+num_test: 116202
+feature_dim: 54
+num_labels: 7
+format: libsvm
+feature_one_based: 1
+label_one_based: 1
+snappy_compressed: 0
