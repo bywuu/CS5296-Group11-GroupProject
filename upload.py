@@ -10,7 +10,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
 sc = spark.sparkContext
 
-sc.install_pypi_package('sklearn')
+# sc.install_pypi_package('sklearn')
 
 
 from sklearn.model_selection import train_test_split
@@ -27,7 +27,7 @@ X_train_t = scaler.fit_transform(X_train)
 X_test_t = scaler.transform(X_test)
 print('-hello-')
 
-sc.install_pypi_package('pandas')
+# sc.install_pypi_package('pandas')
 import pandas as pd
 pandas_df = pd.DataFrame(X_train_t)
 pandas_df["label"] = y_train
