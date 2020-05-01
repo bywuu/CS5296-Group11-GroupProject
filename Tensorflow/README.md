@@ -1,6 +1,7 @@
 ## Distributed Machine Learning on Tensorflow
 
-Pre-requisites: python 2.7, tensorflow 1.10 (other version maybe work, but have not been tested), sklearn, time, numpy, math.</br> </br> 
+## Pre-requisites
+python 2.7, tensorflow 1.10 (other version maybe work, but have not been tested), sklearn, time, numpy, math. 
 
 ## Introduce
 The code can be found here -> ```./Code/``` </br> 
