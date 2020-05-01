@@ -17,7 +17,7 @@ Run the following file to launch the program.
 ```
 ./Spark/upload.py
 ```
-</br>
+
 ### Tensorflow
 Pre-requisites: python 2.7, tensorflow 1.10 (other version maybe work, but have not been tested), sklearn, time, numpy, math.</br> 
 
@@ -40,7 +40,7 @@ python Distributed_training.py --job_name=worker --task_index=1
 ```
 It takes about 150 s for one epoch training.
 
-</br>
+
 ### PMLS (Petuum)
 
 Install PMLS following the illustration provided by the [documents of Petuum](https://pmls.readthedocs.io/en/latest/index.html).
