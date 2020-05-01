@@ -26,6 +26,7 @@ Run the following file to try nondistributed training (It takes about 300 s for 
 ./Tensorflow/Code/Non_distributed_training.py
 ```
 For Distributed training, you need to modify the distributed training parameter (i.e. change the ip address for ps_hosts and workers) in the ```./Tensorflow/Code/Distributed_training.py``` before you run it.</br> 
+
 To conduct distributed training, run the following command for PS node.
 ```
 python Distributed_training.py --job_name=ps --task_index=0
