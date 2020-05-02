@@ -102,7 +102,7 @@ def main(unused_argv):
 
         logits = tf.matmul(X, w) + b 
 
-        #crossentropy
+        #cross entropy
         entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=Y, name='loss')
         #mean
         loss = tf.reduce_mean(entropy)    
@@ -165,7 +165,7 @@ def main(unused_argv):
             X_batch, Y_batch = next_batch(testX,testY,batch_size)    
             accuracy_batch = sess.run([accuracy], feed_dict={X: X_batch, Y:Y_batch}) 
             total_correct_preds += accuracy_batch[0]
-            #对每个batch求平均值
+            
         print('Accuracy {0}'.format(total_correct_preds/testX.shape[0])) 
 
     sess.close()
