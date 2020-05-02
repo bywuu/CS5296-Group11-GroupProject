@@ -105,7 +105,7 @@ def main(unused_argv):
         #crossentropy
         entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=Y, name='loss')
         #mean
-        loss = tf.reduce_mean(entropy)    #此处使用的是求平均值的方式
+        loss = tf.reduce_mean(entropy)    
 
         learning_rate = FLAGS.learning_rate
         optimizer = tf.train.AdamOptimizer(learning_rate).minimize(loss, global_step=global_step)
