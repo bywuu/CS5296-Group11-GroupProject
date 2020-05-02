@@ -5,7 +5,7 @@ python 2.7, tensorflow 1.10 (other version maybe work, but have not been tested)
 
 ## Introduce
 The code can be found here -> ```./Code/``` </br> 
-The result(Screenshot) can be found here -> ```./Result/```
+The result (Screenshot) can be found here -> ```./Result/```
 
 ## Usage
 Run the following file to try nondistributed training (It takes about 300s for one epoch training). 
