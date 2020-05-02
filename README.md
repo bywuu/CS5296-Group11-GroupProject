@@ -5,8 +5,8 @@ The project aims to conduct machine learning algorithms on distributed machine l
 
 ## Setup
 1. You need to setup at least three AWS EC2 instances for experiment.<br/>
-&nbsp;[Note: Make sure you have added rules in security group to allow TCP, UDP traffic into the instances]</br> 
-&nbsp;In our experiment, we use three m4.large instances and each instance contains 4 vCores and 8 GiB memory.</br></br> 
+&nbsp;*[Note: Make sure you have added rules in security group to allow TCP, UDP traffic into the instances]*</br> 
+&nbsp;In our experiment, we use three **m4.large** instances and each instance contains 4 vCores and 8 GiB memory.</br></br> 
 2. You don't need to worry about the dataset since it is prepared. For the experiment on Spark and Tensorflow, the dataset will be downloaded automatically if it is not exist.</br> 
 
 
