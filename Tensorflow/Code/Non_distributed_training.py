@@ -101,7 +101,7 @@ if __name__ == "__main__":
         total_correct_preds = 0
 
         for i in range(n_batches):
-            X_batch, Y_batch = next_batch(testX,testY,batch_size)    #此处是从测试集中按批次的输入数据
+            X_batch, Y_batch = next_batch(testX,testY,batch_size)    
             accuracy_batch = sess.run([accuracy], feed_dict={X: X_batch, Y:Y_batch}) 
             total_correct_preds += accuracy_batch[0]
         
